@@ -1,0 +1,351 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Product001",
+            "cost": 10,
+            "quantity": 1000,
+            "locationId": 1,
+            "familyId": 1
+        },
+        {
+            "id": 2,
+            "name": "Product002",
+            "cost": 20,
+            "quantity": 2000,
+            "locationId": 1,
+            "familyId": 2
+        },
+        {
+            "id": 3,
+            "name": "Product003",
+            "cost": 30,
+            "quantity": 3000,
+            "locationId": 3,
+            "familyId": 2
+        },
+        {
+            "id": 4,
+            "name": "Product004",
+            "cost": 40,
+            "quantity": 4000,
+            "locationId": 2,
+            "familyId": 3
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Location001"
+        },
+        {
+            "id": 2,
+            "name": "Location002"
+        },
+        {
+            "id": 3,
+            "name": "Location003"
+        }
+    ],
+    "families": [
+        {
+            "id": 1,
+            "name": "FM001"
+        },
+        {
+            "id": 2,
+            "name": "FM002"
+        },
+        {
+            "id": 3,
+            "name": "FM003"
+        }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "cost": 11,
+            "quantity": 10,
+            "productId": 1
+        },
+        {
+            "id": 2,
+            "cost": 12,
+            "quantity": 100,
+            "productId": 2
+        },
+        {
+            "id": 3,
+            "cost": 15,
+            "quantity": 101,
+            "productId": 3
+        }
+    ],
+    "datasets": [
+        {
+            "_id": "dc88d3d6-2e53-4e65-a36b-002efcb8e697",
+            "id": 1,
+            "name": "Hyperspectral images of crops",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+            "owner": "Tonya Noble",
+            "created": "08 Dec, 2021",
+            "type": "Video",
+            "status": "Preprocessing",
+            "access": "Public"
+        },
+        {
+            "_id": "239e688d-8964-4d82-9ca1-65bb637dbdfd",
+            "id": 2,
+            "name": "Car density map",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+            "owner": "Mary Rucker",
+            "created": "24 Oct, 2021",
+            "type": "Other",
+            "status": "Ready",
+            "access": "Private"
+        },
+        {
+            "_id": "d7e55874-1edf-49ea-a28a-a0c6239f0278",
+            "id": 3,
+            "name": "Population density map",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+            "owner": "Mary Rucker",
+            "created": "24 June, 2022",
+            "type": "Other",
+            "status": "Ready",
+            "access": "Private"
+        },
+        {
+            "_id": "05713b4b-6f18-443f-9a9f-b4a5b3a956ae",
+            "id": 4,
+            "name": "Movies and Actors Dataset",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+            "owner": "Johnny Goodies",
+            "created": "15 March, 2022",
+            "type": "Other",
+            "status": "Ready",
+            "access": "Public"
+        },
+        {
+            "_id": "32893e49-09de-4775-87c0-c15c5fec833a",
+            "id": 5,
+            "name": "Lidar Scanning of Slovenia 2014",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+            "owner": "Mary Rucker",
+            "created": "24 Oct, 2021",
+            "type": "Other",
+            "status": "Ready",
+            "access": "Private"
+        },
+        {
+            "_id": "c2336124-8c65-4d5e-b41f-3b7fa0d6e1ad",
+            "id": 6,
+            "name": "Severe Storm Event Details",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+            "owner": "Mary Rucker",
+            "created": "24 Oct, 2021",
+            "type": "Other",
+            "status": "Preprocessing",
+            "access": "Private"
+        },
+        {
+            "_id": "e6cef658-e225-4363-b0df-18d89e9af5b9",
+            "id": 7,
+            "name": "Environmental Impact of Food Production",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+            "owner": "Mary Rucker",
+            "created": "24 Oct, 2021",
+            "type": "Other",
+            "status": "Ready",
+            "access": "Public"
+        }
+    ],
+    "projects": [
+        {
+            "_id": "b6c55e89-d6a3-4e4b-8abf-37ee8f216870",
+            "id": 1,
+            "isDesign1": true,
+            "time": "Updated 3hrs ago",
+            "img": "/static/media/airfield-monitoring.f4efed199db969c5e2d8.png",
+            "imgbgColor": "warning",
+            "label": "Airfield monitoring",
+            "caption": "Automated detection of irregularities in airfield video streams.",
+            "number": "18/42",
+            "progressBar": "34%",
+            "subItem": [
+                {
+                    "id": 1,
+                    "imgFooter": "/static/media/avatar-2.d25c05b06966d854ab4a.jpg"
+                },
+                {
+                    "id": 2,
+                    "imgNumber": "+"
+                }
+            ],
+            "date": "10 Jul, 2021",
+            "ratingClass": "",
+            "datasets": [5, 6],
+            "mainImage": "/static/media/airfield-detection.a7d5f33486270d0883be.jpg",
+            "smallImages": [
+                "data:image/jpeg;base64,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",
+                "data:image/jpeg;base64,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",
+                "data:image/jpeg;base64,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",
+                "data:image/jpeg;base64,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"
+            ]
+        },
+        {
+            "_id": "5070fed8-f678-4b2c-a5bb-d69f594241ff",
+            "id": 2,
+            "isDesign1": true,
+            "time": "Last update : 08 May",
+            "img": "/static/media/urban-mapping.a7fe0f3cd44e7e2b54ae.jpg",
+            "imgbgColor": "danger",
+            "label": "Urban mapping",
+            "caption": "Hyperspectral image processing for building classification in urban settings.",
+            "number": "22/56",
+            "progressBar": "54%",
+            "subItem": [
+                {
+                    "id": 1,
+                    "imgFooter": "/static/media/avatar-3.db8ab0bd118929359559.jpg"
+                },
+                {
+                    "id": 2,
+                    "imgNumber": "S",
+                    "bgColor": "secondary"
+                },
+                {
+                    "id": 3,
+                    "imgFooter": "/static/media/avatar-4.dd08c9c3678ad2e61fdd.jpg"
+                },
+                {
+                    "id": 4,
+                    "imgNumber": "+"
+                }
+            ],
+            "date": "18 May, 2021",
+            "ratingClass": "active",
+            "datasets": [3, 4],
+            "mainImage": "/static/media/urban-mapping-main.d87229739cc43080d703.jpg",
+            "smallImages": [
+                "/static/media/urban-mapping-object-001.d26106eee4c891a06ab1.png",
+                "/static/media/urban-mapping-object-002.1451e7dfeb5dc26cb1c1.png",
+                "/static/media/urban-mapping-object-003.a0bf9e776108de176eaf.png"
+            ]
+        },
+        {
+            "_id": "091374c0-8649-461b-b5f4-8cb445f998b6",
+            "id": 3,
+            "isDesign1": true,
+            "time": "Updated 2hrs ago",
+            "img": "/static/media/leakage-detection.73046b6a5862eeb0effc.jpg",
+            "imgbgColor": "success",
+            "label": "Oil leakage monitoring",
+            "caption": "Combination of sensor and image processing for automated detection of leakages.",
+            "number": "14/20",
+            "progressBar": "65%",
+            "subItem": [
+                {
+                    "id": 1,
+                    "imgFooter": "/static/media/avatar-5.8f3500b34579a0560f41.jpg"
+                },
+                {
+                    "id": 2,
+                    "imgNumber": "M",
+                    "bgColor": "warning"
+                },
+                {
+                    "id": 3,
+                    "imgNumber": "+"
+                }
+            ],
+            "date": "21 Feb, 2021",
+            "ratingClass": "active",
+            "datasets": [1, 4],
+            "mainImage": "/static/media/download.0ebb99fd307850d6ca5d.jpg",
+            "smallImages": [
+                "/static/media/david-kovalenko-G85VuTpw6jg-unsplash.33639b132326c529ab06.jpg",
+                "/static/media/diego-ph-fIq0tET6llw-unsplash.0f5462adc879fb6db9a7.jpg",
+                "/static/media/jess-bailey-l3N9Q27zULw-unsplash.a5f7105784f7a72ecb81.jpg"
+            ]
+        },
+        {
+            "_id": "d406e20c-f6e0-436a-8bfa-2d69846f64a7",
+            "id": 4,
+            "isDesign1": true,
+            "time": "Last update : 21 Jun",
+            "img": "/static/media/power-lines.d520e49971864dffae62.jpg",
+            "imgbgColor": "info",
+            "label": "Power line monitoring",
+            "caption": "Sensor and drone-based power line monitoring system",
+            "number": "20/34",
+            "progressBar": "78%",
+            "subItem": [
+                {
+                    "id": 1,
+                    "imgNumber": "K",
+                    "bgColor": "info"
+                },
+                {
+                    "id": 2,
+                    "imgNumber": "M",
+                    "bgColor": "danger"
+                },
+                {
+                    "id": 3,
+                    "imgNumber": "+"
+                }
+            ],
+            "date": "03 Aug, 2021",
+            "ratingClass": "",
+            "datasets": [5, 6, 7],
+            "mainImage": "/static/media/download.0ebb99fd307850d6ca5d.jpg",
+            "smallImages": [
+                "/static/media/david-kovalenko-G85VuTpw6jg-unsplash.33639b132326c529ab06.jpg",
+                "/static/media/diego-ph-fIq0tET6llw-unsplash.0f5462adc879fb6db9a7.jpg",
+                "/static/media/jess-bailey-l3N9Q27zULw-unsplash.a5f7105784f7a72ecb81.jpg"
+            ]
+        },
+        {
+            "_id": "0ee78a5e-f742-455f-847b-1a6f72e72085",
+            "id": 5,
+            "isDesign1": true,
+            "img": "/static/media/solar-inspection.de4f17b68afba60aaf2b.jpg",
+            "imgbgColor": "info",
+            "label": "Home inspections",
+            "caption": "Home inspection system",
+            "status": "Inprogess",
+            "statusClass": "warning",
+            "deadline": "18 Sep, 2021",
+            "subItem": [
+                {
+                    "id": 1,
+                    "imgNumber": "D",
+                    "bgColor": "danger"
+                },
+                {
+                    "id": 2,
+                    "imgTeam": "/static/media/avatar-5.8f3500b34579a0560f41.jpg"
+                },
+                {
+                    "id": 3,
+                    "imgTeam": "/static/media/avatar-6.36f29008cbe773188ed2.jpg"
+                },
+                {
+                    "id": 4,
+                    "imgNumber": "+"
+                }
+            ],
+            "progressBar": "50%",
+            "ratingClass": "active",
+            "cardHeaderClass": "danger",
+            "datasets": [2, 3, 4, 7],
+            "mainImage": "/static/media/download.0ebb99fd307850d6ca5d.jpg",
+            "smallImages": [
+                "/static/media/david-kovalenko-G85VuTpw6jg-unsplash.33639b132326c529ab06.jpg",
+                "/static/media/diego-ph-fIq0tET6llw-unsplash.0f5462adc879fb6db9a7.jpg",
+                "/static/media/jess-bailey-l3N9Q27zULw-unsplash.a5f7105784f7a72ecb81.jpg"
+            ]
+        }
+    ]
+}
